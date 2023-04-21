@@ -1,0 +1,27 @@
+.header-superior {
+    background-color: #BB402E;
+}
+
+.header-principal {
+    background-image: url(img/portada/portada1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-principal {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: #BB402E;
+    border-color: #BB402E;
+
+}
+
+.btn-primary:hover {
+    background-color: #BB402E;
+    border-color: #BB402E;
+}
