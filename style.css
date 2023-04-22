@@ -41,7 +41,7 @@ font-size: 20px;
 }
 
 .logo{
-max-width: 270px;
+max-width: 350px;
 position: relative;
 
 }
@@ -50,7 +50,7 @@ position: relative;
 
 @media screen and (min-width:1200px) {
     .reserva{
-        margin-top:-55px ;
+        margin-top:-155px ;
         z-index: 50;
         padding-bottom: 20px;
     } 
