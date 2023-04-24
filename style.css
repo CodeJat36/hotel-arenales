@@ -12,6 +12,19 @@
     
 }
 
+.header-principal2 {
+
+    background-image: url(img/contacto/pcontacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    height: auto;
+    
+    
+    
+}
+
 .header-principal {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -56,6 +69,12 @@ position: relative;
 
     .card-item{
         padding-right: 15px;
+    } 
+    
+    .reserva2{
+        margin-top:-100px ;
+        z-index: 50;
+        
     } 
 
     
