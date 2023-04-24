@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Arenales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- CDN Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header-superior">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-2  ">
+        <a href="void(0)"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white fw-bold">
+          <i class="fs-4 align-middle fa-regular fa-clock px-2 "></i>
+          Atención: Las 24 hrs
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link text-white fw-bold"><i
+                class="fs-4 fa-solid align-middle fa-phone"></i>
+              (01)
+              765 0886</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white fw-bold"><i
+                class="fs-4 fa-solid align-middle fa-envelope"></i> hotelarenalesjinli@gmail.com</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link "><i
+                class="fs-4 text-white align-middle fa-brands fa-facebook"></i></a></li>
+        </ul>
+      </header>
+    </div>
+  </div>
+
+  <div class="header-principal">
+    <div class="container py-0 ">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 ">
+        <a href="./index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#boot"></use>
+          </svg>
+          <!-- <span class="fs-4">Hotel Arenales</span>-->
+          <img src="./img/logo/lgsombra.png" alt="Logo" class="logo">
+        </a>
+
+        <ul class="nav nav-pills" style="font-size: 25px;">
+          <li class="nav-item"><a href="index.html" class="nav-link text-white" aria-current="page">Hotel</a></li>
+          <li class="nav-item"><a href="habitaciones.html" class="nav-link text-white">Habitaciones</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">Servicios</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-white">Reservas</a></li>
+          <li class="nav-item"><a href="./contacto.html" class="nav-link text-white">Contactos</a></li>
+        </ul>
+
+      </header>
+      
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <h3 class="text-center">Terminos y Condiciones</h3>
+        <p class="text-start mt-3">Al hacer uso de nuestro servicio de reserva de habitaciones a través de WhatsApp, usted acepta los siguientes términos y condiciones:
+
+            <br>1.  Responsabilidad del usuario: El usuario será responsable de proporcionar información precisa y completa en el formulario de reserva de habitaciones, incluyendo su nombre, número de teléfono y fecha de llegada y salida. El hotel no se hace responsable de ninguna información incorrecta o incompleta proporcionada por el usuario.
+            
+            <br>2.  Privacidad y seguridad: Todos los datos proporcionados por el usuario serán tratados de forma confidencial y se utilizarán únicamente con el propósito de la reserva de habitaciones. El hotel se compromete a no compartir ninguna información del usuario con terceros.
+            
+            <br>3.  Confirmación de reserva: Una vez que el usuario ha enviado el formulario de reserva de habitaciones, el hotel confirmará la disponibilidad de la habitación y enviará un mensaje de confirmación a través de WhatsApp. La reserva solo se considerará confirmada después de recibir la confirmación del hotel.
+            
+            <br>4.  Pago: El pago de la reserva se realizará directamente en el hotel al momento del check-in. El hotel se reserva el derecho de solicitar un depósito para garantizar la reserva.
+            
+            <br>5.  Cancelación: En caso de que el usuario necesite cancelar la reserva, debe notificar al hotel con al menos 48 horas de antelación para evitar cargos adicionales.
+            
+            <br>6.  Modificaciones: El usuario puede solicitar modificaciones a su reserva, sujeto a la disponibilidad de habitaciones. El hotel se reserva el derecho de aceptar o rechazar cualquier solicitud de modificación.
+            
+            <br>7.  Aceptación de los términos y condiciones: Al utilizar el servicio de reserva de habitaciones a través de WhatsApp, el usuario acepta y reconoce haber leído y entendido los términos y condiciones.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start booton wsp-->
+  <div class="nav-bottom">    
+    <div class="popup-whatsapp fadeIn">
+      <div class="content-whatsapp -top"><button type="button" class="closePopup">
+          <i class="material-icons icon-font-color">close</i>
+        </button>
+  
+        <p> <img src="img/iconos/secretary.png" width="50"> Hola, ¿En que podemos ayudarle? </p>
+  
+      </div>
+      <div class="content-whatsapp -bottom">
+        <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+        <button class="send-msPopup" id="send-btn" type="button">
+          <i class="material-icons icon-font-color--black">send</i>
+        </button>
+  
+      </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+      <div class="float">
+        <i class="fa-brands fa-whatsapp my-float"></i>
+      </div>
+    </button>
+    <div class="circle-anime"></div>
+  </div>
+  <!-- End booton wsp-->
+  <!-- Start Footer-->
+  <div class="footer">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Sobre Nosotros</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inicio</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">¿Quienes somos?</a></li>
+              <li class="nav-item mb-2"><a href="Terminos.html" class="nav-link p-0 text-body-secondary">Terminos y Condiciones</a>
+              </li>
+              <li class="nav-item mb-2"><a href="politica.html" class="nav-link p-0 text-body-secondary">Política de privacidad y
+                  cookies</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <h5>Nos Encontramos</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1950.6485082991246!2d-77.03524659643402!3d-12.091807490192526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c85de03d820d%3A0x323741f64376e13!2sAv.%20Gral.%20Antonio%20Alvarez%20de%20Arenales%20224%2C%20San%20Isidro%2015073!5e0!3m2!1ses-419!2spe!4v1682119594998!5m2!1ses-419!2spe"
+              width="525" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-3 my-4 border-top">
+          <p>© 2023 Hotel Arenales. Todos los derechos reservados.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- End Footer -->
+</body>
+</html>
