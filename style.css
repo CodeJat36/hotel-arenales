@@ -53,6 +53,11 @@ position: relative;
         z-index: 50;
         padding-bottom: 20px;
     } 
+
+    .card-item{
+        padding-right: 15px;
+    } 
+
 }
 
 /* boton dinamico wsp */
@@ -298,4 +303,3 @@ input.whats-input[type=text]:focus {
 
 /*End boton Dinamico*/
 
-  
