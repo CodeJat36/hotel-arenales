@@ -53,6 +53,20 @@ position: relative;
         z-index: 50;
         padding-bottom: 20px;
     } 
+
+    .card-item{
+        padding-right: 15px;
+    } 
+
+}
+
+
+@media screen and (max-width:1199px) {
+     
+    .card-body{
+        padding: 10px;
+    } 
+
 }
 
 /* boton dinamico wsp */
@@ -298,4 +312,3 @@ input.whats-input[type=text]:focus {
 
 /*End boton Dinamico*/
 
-  
