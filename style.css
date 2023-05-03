@@ -1,5 +1,5 @@
 .header-superior {
-    background-color: #BB402E;
+    background-color: #B6714C;
 }
 
 .header-principal {
@@ -30,14 +30,14 @@
 }
 
 .btn-primary {
-    background-color: #BB402E;
-    border-color: #BB402E;
+    background-color: #B6714C;
+    border-color: #B6714C;
 
 }
 
 .btn-primary:hover {
-    background-color: #BB402E;
-    border-color: #BB402E;
+    background-color: #B6714C;
+    border-color: #B6714C;
 }
 
 .servicios {
@@ -49,7 +49,7 @@ font-size: 20px;
 }
 
 .color{
-    color: #BB402E;
+    color: #B6714C;
     
 }
 
