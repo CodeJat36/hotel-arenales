@@ -1,131 +1,140 @@
+:root {
+  --color-principal: #a84141;
+}
+
 .header-superior {
-    background-color: #B6714C;
+  background-color: var(--color-principal);
 }
 
 .header-principal {
-    background-image: url(img/portada/portada-p.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    max-width: 100%;
-    height: auto;
-    
+  background-image: url(img/portada/portada-p.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+  height: auto;
+
 }
 
 .header-principal2 {
 
-    background-image: url(img/contacto/pcontacto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    max-width: 100%;
-    height: auto;
-    
-    
-    
+  background-image: url(img/contacto/pcontacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+  height: auto;
+
+
+
 }
 
 .header-principal {
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .btn-primary {
-    background-color: #B6714C;
-    border-color: #B6714C;
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
 
 }
 
 .btn-primary:hover {
-    background-color: #B6714C;
-    border-color: #B6714C;
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
 }
 
 .servicios {
-    background-color: #f7efef;
+  background-color: #f7efef;
 }
 
-.fuente{
-font-size: 20px;
+.fuente {
+  font-size: 20px;
 }
 
-.color{
-    color: #B6714C;
-    
-}
-
-.logo{
-max-width: 350px;
-position: relative;
+.color {
+  color: var(--color-principal);
 
 }
 
+.logo {
+  max-width: 350px;
+  position: relative;
 
-@media screen and (min-width:1200px) {
-    .reserva{
-        margin-top:-155px ;
-        z-index: 50;
-        padding-bottom: 20px;
-    } 
+}
 
-    .card-item{
-        padding-right: 15px;
-    } 
-    
-   
 
-    
+@media screen and (min-width:1400px) {
+  .reserva {
+    margin-top: -155px;
+    z-index: 50;
+    padding-bottom: 20px;
+  }
+
+  .card-item {
+    padding-right: 15px;
+  }
+
+
+
+
 
 }
 
 
 @media screen and (max-width:1199px) {
-     
-    .card-body{
-        padding: 10px;
-    } 
+
+  .card-body {
+    padding: 10px;
+  }
 
 }
 
 /* boton dinamico wsp */
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom: 15px;
-    right: 16px;
-	background-color:#4cc370;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-.float:hover {
-	text-decoration: none;
-	color: #fff;
-  background-color:#3d9e5a;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 16px;
+  background-color: #4cc370;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.float:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3d9e5a;
+}
+
+.my-float {
+  margin-top: 16px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+
 /* offset-x > | offset-y ^| blur-radius | spread-radius | color */
 @keyframes pulse {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     opacity: 0.3;
   }
+
   100% {
     transform: scale(1.45);
     opacity: 0;
   }
 }
+
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
@@ -145,6 +154,7 @@ position: relative;
   padding: 5px;
   margin: 0px;
 }
+
 @media (max-width: 360px) {
   .nav-bottom {
     width: 320px;
@@ -207,25 +217,30 @@ position: relative;
   box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
   animation: slideInRight .6s 0.0s both;
 }
-.popup-whatsapp > div {
+
+.popup-whatsapp>div {
   margin: 5px;
 }
+
 @media (max-width: 680px) {
   .popup-whatsapp p {
     font-size: 0.9em;
   }
 }
-.popup-whatsapp > .content-whatsapp.-top {
+
+.popup-whatsapp>.content-whatsapp.-top {
   display: flex;
   flex-direction: column;
 }
-.popup-whatsapp > .content-whatsapp.-top p {
+
+.popup-whatsapp>.content-whatsapp.-top p {
   color: #585858;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 1.0em;
 }
-.popup-whatsapp > .content-whatsapp.-bottom {
+
+.popup-whatsapp>.content-whatsapp.-bottom {
   display: flex;
   flex-direction: row;
 }
@@ -246,6 +261,7 @@ position: relative;
   -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
 }
+
 .closePopup:hover {
   background-color: #3d9e5a;
   transition: .3s;
@@ -267,6 +283,7 @@ position: relative;
   -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
 }
+
 .send-msPopup:hover {
   background-color: #f8f8f8;
   transition: .3s;
@@ -292,16 +309,19 @@ input.whats-input[type=text] {
   outline: none;
   transition: .3s;
 }
+
 @media (max-width: 420px) {
   input.whats-input[type=text] {
     width: 225px;
   }
 }
+
 input.whats-input::placeholder {
   /* Most modern browsers support this now. */
   color: rgba(68, 68, 68, 0.705);
   opacity: 1;
 }
+
 input.whats-input[type=text]:focus {
   background-color: #f8f8f8;
   -webkit-transition: width 0.3s ease-in-out;
@@ -328,4 +348,3 @@ input.whats-input[type=text]:focus {
 }
 
 /*End boton Dinamico*/
-
