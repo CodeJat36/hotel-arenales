@@ -50,6 +50,7 @@
 
 .fuente {
   font-size: 20px;
+  padding-right: 100px;
 }
 
 .color {
@@ -353,3 +354,13 @@ input.whats-input[type=text]:focus {
   background-color: rgba(0, 0, 0, 0.201);
  
 }
+
+
+@media screen and (max-width:1399px) {
+  .fuente{
+     padding-right: 0px;
+  }
+  
+
+}
+
