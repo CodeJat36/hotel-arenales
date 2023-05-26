@@ -349,3 +349,7 @@ input.whats-input[type=text]:focus {
 
 /*End boton Dinamico*/
 
+.fondo{
+  background-color: rgba(0, 0, 0, 0.201);
+ 
+}
