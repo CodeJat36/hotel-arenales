@@ -7,7 +7,7 @@
 }
 
 .header-principal {
-  background-image: url(img/portada/foto_portada_final.jpg);
+  background-image: url(img/portada/luz1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -50,6 +50,7 @@
 
 .fuente {
   font-size: 20px;
+  padding-right: 100px;
 }
 
 .color {
@@ -348,3 +349,31 @@ input.whats-input[type=text]:focus {
 }
 
 /*End boton Dinamico*/
+
+.fondo{
+  background-color: rgba(0, 0, 0, 0.201);
+ 
+}
+
+
+@media screen and (max-width:1399px) {
+  .fuente{
+     padding-right: 0px;
+  }
+
+
+}
+
+@media screen and (max-width:767px) {
+  
+  .titulo{
+    color: #212529;
+  }
+
+  .fuente{
+    color: #212529;
+  }
+    
+
+}
+
