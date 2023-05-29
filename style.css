@@ -389,6 +389,7 @@ input.whats-input[type=text]:focus {
 
 .fondo{
   background-color: rgba(0, 0, 0, 0.201);
+ border-radius: 0px 0px 10px  10px;
  
 }
 
@@ -404,11 +405,17 @@ input.whats-input[type=text]:focus {
 @media screen and (max-width:767px) {
   
   .titulo{
-    color: #212529;
+    color: #ffffff;
   }
 
   .fuente{
-    color: #212529;
+    color: #ffffff;
+  }
+
+  .fondo2{
+    background-color: #b1566b;
+    padding: 15px;
+    border-radius: 10px;
   }
     
 
