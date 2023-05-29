@@ -12,9 +12,21 @@
   background-repeat: no-repeat;
   background-position: center center;
   max-width: 100%;
-  height: auto;
+  height:auto ;
 
 }
+
+.header-principal1{
+  background-image: url(img/portada/luz1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%;
+  height:auto ;
+
+}
+
+
 
 .header-principal2 {
 
@@ -67,14 +79,39 @@
 
 @media screen and (min-width:1400px) {
   .reserva {
+    margin-top: 450px;
+    margin-bottom: -900px;
+    z-index: 250;
+    padding-bottom: 20px;
+  }
+
+  .reserva2 {
     margin-top: -155px;
     z-index: 50;
     padding-bottom: 20px;
   }
 
+  
+
+  .fondo2{
+    
+    margin-bottom: -250px;
+    z-index: 900;
+  }
+
   .card-item {
     padding-right: 15px;
   }
+
+ .barra{
+  background-color: #b1566b;
+  height: 500px;
+ }
+ .header-principal {
+ 
+  height: 900px; ;
+
+}
 
 
 
