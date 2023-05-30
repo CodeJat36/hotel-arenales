@@ -79,7 +79,7 @@
 
 @media screen and (min-width:1400px) {
   .reserva {
-    margin-top: 550px;
+    margin-top: 150px;
     margin-bottom: -900px;
     z-index: 250;
     padding-bottom: 20px;
@@ -95,7 +95,7 @@
 
   .fondo2{
     
-    margin-bottom: -10px;
+    margin-bottom: -100px;
     z-index: 900;
   }
 
@@ -105,11 +105,11 @@
 
  .barra{
   background-color: #b1566b;
-  height: 500px;
+  height: 420px;
  }
  .header-principal {
  
-  height: 800px; ;
+  height: 500px; ;
 
 }
 
