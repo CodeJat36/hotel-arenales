@@ -22,7 +22,7 @@ popupWhatsApp = () => {
         let msg = document.getElementById('whats-in').value;
         let relmsg = msg.replace(/ /g, "%20");
 
-        window.open('https://wa.me/51902453586?text=' + relmsg, '_blank');
+        window.open('https://wa.me/51994743631?text=' + relmsg, '_blank');
 
     });
 
@@ -30,7 +30,7 @@ popupWhatsApp = () => {
         let msg2 = "Quiero reservar una habitacion simple";
         let relmsg = msg2.replace(/ /g, "%20");
 
-        window.open('https://wa.me/51902453586?text=' + relmsg, '_blank');
+        window.open('https://wa.me/51994743631?text=' + relmsg, '_blank');
 
     });
 
@@ -38,7 +38,7 @@ popupWhatsApp = () => {
         let msg3 = "Quiero reservar una habitacion matrimonial";
         let relmsg = msg3.replace(/ /g, "%20");
 
-        window.open('https://wa.me/51902453586?text=' + relmsg, '_blank');
+        window.open('https://wa.me/51994743631?text=' + relmsg, '_blank');
 
     });
 
@@ -46,7 +46,7 @@ popupWhatsApp = () => {
         let msg4 = "Quiero reservar una habitacion especial";
         let relmsg = msg4.replace(/ /g, "%20");
 
-        window.open('https://wa.me/51902453586?text=' + relmsg, '_blank');
+        window.open('https://wa.me/51994743631?text=' + relmsg, '_blank');
 
     });
 
@@ -59,7 +59,7 @@ popupWhatsApp = () => {
 
         var textCodificado = encodeURIComponent(texto);
 
-        window.open('https://wa.me/51902453586?text=' + textCodificado, '_blank');
+        window.open('https://wa.me/51994743631?text=' + textCodificado, '_blank');
     });
 }
 
